@@ -1,0 +1,5 @@
+material,shape_id,RCS_rel_dB
+baseline_plastic,sphere_small,-19.46547626538579
+baseline_plastic,cylinder_micro,3.7221113608583387
+baseline_plastic,flat_plate,5.639973836680332
+baseline_plastic,faceted_shell,-3.3909260332391034

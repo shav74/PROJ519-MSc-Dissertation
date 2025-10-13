@@ -1,0 +1,17 @@
+environment:
+  ambient_C: 20
+  h_conv_W_m2K: 12         # 8–18 typical; use 8 (indoor still air) or 18 (breezy) for sensitivity
+
+sim:
+  t_end_s: 1200            # 20 minutes
+  dt_s: 0.5
+
+metrics:
+  ir_threshold_C_above_amb: 8   # “detectable above background” threshold
+
+cases:
+  insulated:
+    h_scale: 0.6               # reduce convection 40%
+    eps_scale: 0.8             # reduce emissivity 20% (matte wrap / insulation)
+  heat_spreader:
+    k_scale: 1.8               # stronger thermal link to shell for faster equalization
