@@ -1,0 +1,6 @@
+config_id,prop,shroud,liner,isolation,added_mass_g,notes
+baseline,stock_prop,none,off,off,0,stock configuration
+low_noise,quiet_prop,none,off,off,5,larger chord low-RPM
+short_shroud,stock_prop,short,off,off,12,short ring shroud
+short_shroud_liner,stock_prop,short,on,off,16,ring + thin liner
+isolation_addon,stock_prop,none,off,on,8,TPU grommet mounts

@@ -1,0 +1,46 @@
+environment:
+  rho_air: 1.20
+  temp_C: 20
+  rh_percent: 50
+  absorption_scale: 1.0   # >1 increases high-freq attenuation
+
+source_model:
+  # thrust model
+  k_T: 1.0e-5
+  # spectral scalings
+  rpm_exponent: 4.5
+  diam_exponent: 1.5
+  tone_base_db: 50.0
+  bb_base_db: 30.0
+  harmonic_decay_db: 8.0
+  line_width_hz: 30.0
+  bb_tilt_db_per_khz: -1.0
+
+directivity:
+  model: sin   # 'sin' = loudest sideways; 'cos' = loudest along axis
+  q: 2.0
+
+geometry:
+  drone_altitude_m: 20.0
+  mic_height_m: 1.5
+  # (rotor layout not explicitly modeled—treated as 4 identical sources)
+
+eval:
+  fmin_hz: 50
+  fmax_hz: 12000
+  n_freq: 400
+  distances_m: [10, 20, 50, 100]
+  spectrogram_at_distance_m: 20
+  make_spectrograms: true
+  sample_rate: 48000
+  spectrogram_seconds: 10
+  footprint:
+    x_min_m: -60
+    x_max_m: 60
+    y_min_m: 0
+    y_max_m: 120
+    step_m: 2
+
+calibration:
+  enabled: false
+  # cal_point will be auto-populated from calibration.json if present
