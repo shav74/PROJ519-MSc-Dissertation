@@ -1,0 +1,4 @@
+name,diameter_m,blades,notes
+stock_prop,0.254,2,10 inch 2-blade
+quiet_prop,0.279,2,11 inch low-noise (larger chord)
+tri_blade,0.254,3,10 inch 3-blade
