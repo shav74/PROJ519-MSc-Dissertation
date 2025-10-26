@@ -1,0 +1,101 @@
+{
+  "rate": 0.08333333333333333,
+  "per_image": [
+    {
+      "image": "aaron-burden-0fA3gVTGwjQ-unsplash.jpg",
+      "detected": 1
+    },
+    {
+      "image": "alessio-soggetti-rSFxBGpnluw-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "arto-suraj-jUQC9GR-hwQ-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "bence-balla-schottner-tuE79f2eyAI-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "erik-odiin-lsqLJCvr0pc-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "fikri-rasyid-PqqkWmCKobE-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "giorgio-trovato-xyOhIqk7kdo-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "gyula-zsambok-_Rsv20zohsU-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "ian-usher-JPAfSd_acI8-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "iewek-gnos-ZlkRrzJl20Q-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "jared-brashier-duNHkmSkW6M-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "jason-mavrommatis-XYrjl3j7smo-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "jesus-audon-hialgo-FaqCKDXfT-4-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "joao-rocha-O0xam7DNJy4-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "jonathan-lampel-L9wrEGJjRdo-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "jopeel-quimpo-NDSvMCWHbxc-unsplash.jpg",
+      "detected": 1
+    },
+    {
+      "image": "joshua-kantarges-gBy985PKkpQ-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "karl-greif-H5IXIH254AU-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "kenny-eliason-CeHGoFLzvNU-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "kyle-loftus-Ve7iqUNkGsA-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "milan-degraeve-1I1n7EUMBMg-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "ricardo-gomez-angel-d7CZYeWZyzc-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "yitzhak-rodriguez-mVI7sD0nTlA-unsplash.jpg",
+      "detected": 0
+    },
+    {
+      "image": "yuhan-chang-Dw4CrTVc6ic-unsplash.jpg",
+      "detected": 0
+    }
+  ]
+}
