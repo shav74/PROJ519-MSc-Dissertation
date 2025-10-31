@@ -1,5 +1,0 @@
-name,mass_kg,cp_J_kgK,area_m2,emissivity,area_scale,h_scale,eps_scale,notes
-battery,0.25,900,0.01,0.85,1.0,1.0,1.0,lithium pack
-motors,0.18,500,0.008,0.85,1.0,1.0,1.0,combined motor casing
-esc,0.05,800,0.004,0.85,1.0,1.0,1.0,speed controller
-shell,0.12,1200,0.05,0.9,1.0,1.0,1.0,outer skin/shell

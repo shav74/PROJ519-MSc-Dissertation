@@ -1,7 +1,0 @@
-n1,n2,k_cond_W_K,scale,type
-battery,shell,0.3,1.0,battery_to_shell
-motors,shell,0.5,1.0,motor_to_shell
-esc,shell,0.4,1.0,esc_to_shell
-battery,motors,0.1,1.0,internal
-battery,esc,0.1,1.0,internal
-motors,esc,0.1,1.0,internal

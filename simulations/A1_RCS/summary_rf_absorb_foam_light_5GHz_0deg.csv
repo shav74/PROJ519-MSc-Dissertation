@@ -1,0 +1,5 @@
+material,shape_id,RCS_rel_dB
+rf_absorb_foam_light,sphere_small,-25.46547626538579
+rf_absorb_foam_light,cylinder_micro,-2.277888639141661
+rf_absorb_foam_light,flat_plate,-0.3600261633196684
+rf_absorb_foam_light,faceted_shell,-9.390926033239102

@@ -1,0 +1,12 @@
+material_id,rcs_loss_db,note
+baseline_plastic,0.0,uncoated ABS/PLA proxy
+matte_paint,-3.0,matte black paint proxy
+rf_absorb_foam_light,-6.0,light absorber proxy
+rf_absorb_foam_heavy,-10.0,heavier absorber proxy
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+shape_id,type,radius_m,length_m,width_m,area_m2,notes
+sphere_small,sphere,0.06,,,,"~120 mm dia payload shell"
+cylinder_micro,cylinder,0.05,0.15,,,battery+stack tube
+flat_plate,plate,,,0.18,0.0324,representative top plate (0.18 m x 0.18 m)
+faceted_shell,faceted,,,0.18,0.0324,simple 4-facet pyramid on cube (proxy)
