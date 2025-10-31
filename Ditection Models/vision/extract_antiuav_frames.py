@@ -13,9 +13,9 @@ def extract_from_sequence(seq_dir: Path, fps_out: float, limit: int):
         return 0
 
     fps_in = cap.get(cv2.CAP_PROP_FPS) or 25.0
-    stride = max(1, int(round(fps_in / max(1e-6, fps_out))))  # e.g., 25fps -> stride 25 for 1 fps
+    stride = max(1, int(round(fps_in / max(1e-6, fps_out))))  # 25fps - stride 25 for 1 fps
     saved = 0
-    frame_idx = -1  # 0-based counter of *read* frames (original index is frame_idx+1)
+    frame_idx = -1  #(original index is frame_idx+1)
 
     print(f"[seq] {seq_dir.name} | fps_in≈{fps_in:.2f} | stride={stride} | target={limit} frames")
     while True:
@@ -25,7 +25,7 @@ def extract_from_sequence(seq_dir: Path, fps_out: float, limit: int):
         frame_idx += 1
         if frame_idx % stride != 0:
             continue
-        # save with ORIGINAL frame number (1-based) => matches Anti-UAV JSON indexing better
+        # save with ORIGINAL frame number
         out_name = f"{frame_idx+1:06d}.jpg"
         out_path = seq_dir / out_name
         cv2.imwrite(str(out_path), frame)
